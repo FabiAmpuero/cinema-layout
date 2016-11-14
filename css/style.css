@@ -1,3 +1,177 @@
+/*-------------------------------------------------------------------- GENERAL --*/
+body {
+    font-family: Arimo, sans-serif;
+}
+/*--------------------------------------------------------------------- HEADER --*/
 header {
-    background: linear-gradient(to right,#fff,#e8e8e8);
+background: linear-gradient(to right, #fff , #eaeaea);
+}
+.search-box .fa-search {
+    margin-left: -25px;
+}
+.search-box input {
+    padding: 10px;
+    font-size: 15px;
+}
+header span {
+    position: relative;
+    bottom: 17px;
+    left: 50px;
+    color: #ccc;
+    font-size: 12px;
+}
+.search-box {
+    margin-top: 3px;
+}
+/*----------------------------------------------------------------------- HERO --*/
+.hero img {
+    margin: 225px 0 0 265px;
+}
+.hero .banner {
+    background: #393939 url(../img/banner.jpg) no-repeat;
+    background-size: contain;
+}
+.hero {
+    background: linear-gradient(to right, #fff, #fff, #fff, #393939, #393939, #393939);
+}
+.movie-info {
+    padding-top: 30px;
+    color: #e3e3e3;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.movie-info h1 {
+    font-size: 30px;
+    font-family: Arimo;
+    margin-bottom: 20px;
+}
+.movie-info span {
+    background: none;
+    border: 2px solid #20de20;
+    border-radius: 3px;
+    color: #20de20;
+    display: inline-block;
+    padding: 14px;
+    font-weight: bold;
+}
+.movie-info span:hover {
+    background: #20de20;
+    border: 2px solid #20de20;
+    color: #333;
+}
+.movie-info hr {
+    margin-bottom: 20px;
+}
+.movie-info table {
+    margin: 15px 0px;
+    text-align: left;
+}
+.movie-info table td {
+    padding-left: 80px;
+    padding-bottom: 12px;
+}
+.movie-info input {
+    background: #e2af07;
+}
+.movie-info button {
+    background: #d17901;
+}
+.movie-info input, button {
+    padding: 15px 15px 15px 30px;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 160px;
+    display: inline-block;
+}
+.movie-info .fa-youtube-play, .fa-ticket {
+    display: inline-block;
+    margin-left: -145px;
+    color: #fff;
+}
+/*------------------------------------------------------------------- ESTRENOS --*/
+.estrenos {
+    background: #f4c608;
+}
+.estrenos .fondoye  {
+    padding: 0 35px;
+}
+.estrenos img {
+    width: 100%;
+    margin: 30px 2px;
+    padding: 0;
+    height: 200px;
+}
+/*------------------------------------------------------------------ CONTENIDO --*/
+.contenido {
+    margin: 50px 0;
+}
+.left h1 {
+    font-size: 30px;
+}
+.left small {
+    font-size: 20px;
+    color: #cecece;
+    display: block;
+    margin: 15px 0;
+}
+.left small:last-child {
+    font-size: 13px;
+    color: #cc8d00;
+}
+.contenido button {
+    background: #cc8d00;
+    border: 1px solid #cc8d00;
+    border-radius: 3px;
+    color: #FFF;
+    padding: 18px 18px 18px 23px;
+}
+.contenido button:hover {
+    background: #FFF;
+    border: 1px solid #cc8d00;
+    color: #cc8d00;
+}
+.contenido h3 {
+    font-weight: bold;
+    color: #d1d1d1;
+}
+.contenido ul li {
+    list-style: none;
+    font-size: 12px;
+    font-stretch: semi-condensed;
+    border-bottom: 1px #d1d1d1 solid;
+    padding-bottom: 20px;
+    margin: 20px 0;
+}
+.contenido ul h4 {
+    font-weight: bold;
+}
+.contenido ul .fecha, p {
+    color: #d1d1d1;
+}
+.contenido a {
+    text-decoration: none;
+    color: #cc8d00;
+    font-weight: bold;
+    font-size: 13px;
+}
+/*------------------------------------------------------------------ CARTELERA --*/
+.cartelera img {
+    width: 100%;
+    height: 300px;
+}
+.cartelera {
+    margin: 30px 0;
+}
+/*-------------------------------------------------------------------------- FOOTER --*/
+footer {
+    background: #f0f0f0;
+    padding: 30px 0;
+    color: #cbcaca;
+    font-size: 13px;
+}
+footer h4 {
+    font-size: 18px;
 }
